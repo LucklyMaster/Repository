@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.cy.ease",
+    "module": "kit",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kit-1.0.0.aar",
+          "url": "kit-1.0.0.aar",
+          "size": 169864,
+          "sha512": "83319aa89517261de2f3165da185332d3a80d41be81255d200a2bd2ed10d362c5af8d62e16ec43f04e3a6706301928949dc34f189ffce6e45988f5ff4ee7a8db",
+          "sha256": "750dd0d7c18507134c6b119a0c7325fbd1c0ad75c0addddf12dc07a5e61ea329",
+          "sha1": "517646aa49fcea2ef6ff141249481d5c4c488342",
+          "md5": "313cd571be81ada85781cfb42b02f0d1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kit-1.0.0.aar",
+          "url": "kit-1.0.0.aar",
+          "size": 169864,
+          "sha512": "83319aa89517261de2f3165da185332d3a80d41be81255d200a2bd2ed10d362c5af8d62e16ec43f04e3a6706301928949dc34f189ffce6e45988f5ff4ee7a8db",
+          "sha256": "750dd0d7c18507134c6b119a0c7325fbd1c0ad75c0addddf12dc07a5e61ea329",
+          "sha1": "517646aa49fcea2ef6ff141249481d5c4c488342",
+          "md5": "313cd571be81ada85781cfb42b02f0d1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kit-1.0.0-sources.jar",
+          "url": "kit-1.0.0-sources.jar",
+          "size": 40666,
+          "sha512": "75070c6cc46175615b0e58cd46bef8f042ecfc7643a3afae119761680922eb596c85801aaca762a663c1a35f879166420fdeee29eb861fc0faaa53dc4afee1b0",
+          "sha256": "934fe7c4cd80b2fac2aea95f45c1a8cb8d43d2c57bed4f2b7445f92fd129a0c3",
+          "sha1": "049d2f5541da021e67af9f3304b58f819765bb2b",
+          "md5": "01347cf250942d93859a9a4041a77a85"
+        }
+      ]
+    }
+  ]
+}
