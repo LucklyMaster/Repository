@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.cy.ease",
+    "module": "compose",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-1.0.2.aar",
+          "url": "compose-1.0.2.aar",
+          "size": 305616,
+          "sha512": "fef8d938fb1ea3071482b586a513bfb2d0c9d19c8f153a69bd030ab4fe5589afadc60e272275c20dbe24c91819dc043743faace452c96914f664395897ef5bc5",
+          "sha256": "2eb68da4f0e8e4c7ee14660dfa59c909cc77e5a1e0a3c4036fa67672b6748b10",
+          "sha1": "e8ab962487e9112168639cb21f73a350051be659",
+          "md5": "63929df1aeb36000f9fab25254f09619"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.03.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.cy.ease",
+          "module": "kit",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-1.0.2.aar",
+          "url": "compose-1.0.2.aar",
+          "size": 305616,
+          "sha512": "fef8d938fb1ea3071482b586a513bfb2d0c9d19c8f153a69bd030ab4fe5589afadc60e272275c20dbe24c91819dc043743faace452c96914f664395897ef5bc5",
+          "sha256": "2eb68da4f0e8e4c7ee14660dfa59c909cc77e5a1e0a3c4036fa67672b6748b10",
+          "sha1": "e8ab962487e9112168639cb21f73a350051be659",
+          "md5": "63929df1aeb36000f9fab25254f09619"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "compose-1.0.2-sources.jar",
+          "url": "compose-1.0.2-sources.jar",
+          "size": 39295,
+          "sha512": "32b3bc55f3db53b2c524f28b8f3fb394a10740c37dcbd5a583950d16fc8ea0080657222dbdf8ec25ac016f0c0d2f1afe307dab19a2e1d6b7eb22bab799c35289",
+          "sha256": "fbb05e23e6f3b49a0ac224849bb281792eea11e23437517531e8c761d6131395",
+          "sha1": "b9d27dbf4581be2f0a1372a579934a57cd8d6bcb",
+          "md5": "f5e5c8eb2600eebd3adaa468c929528b"
+        }
+      ]
+    }
+  ]
+}
